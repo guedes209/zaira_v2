@@ -1,5 +1,8 @@
 import React from 'react';
 import axios from 'axios';
+import Nav from './components/nav/nav';
+import 'bootstrap/dist/css/bootstrap.css';
+import './App.css';
 
 const URL = 'http://localhost:3333/'
 
@@ -8,7 +11,7 @@ export default props => {
   
   return (
     <div>
-      <h1>Dale meu rei</h1>
+      <Nav></Nav>
     </div>
   )
 }
