@@ -1,0 +1,1 @@
+CREATE TABLE `testestarti`.`produtos` ( `id` INT NOT NULL AUTO_INCREMENT , `nome` VARCHAR(100) NOT NULL , `valor_unitario` FLOAT NOT NULL , `quantidade` INT NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
